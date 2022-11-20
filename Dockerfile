@@ -1,4 +1,4 @@
-FROM 412314/mltb:heroku
+FROM python:3.9.2-slim-buster
 RUN mkdir /app && chmod 777 /app
 WORKDIR /app
 ENV DEBIAN_FRONTEND=noninteractive
